@@ -1,0 +1,109 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+main{
+    display: flex;
+}
+#menu-opcoes{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-top: 25px;
+    width: 250px;
+}
+#menu-logo{
+    padding-left: 26px;
+}
+#menu-logo .logo-youtube{
+    padding-left: 15px;
+}
+#pesquisa{
+    display: flex;
+    align-items: center;
+}
+#pesquisa input{
+    height: 40px;
+    width: 340px;
+    border: 1px solid rgba(204, 204, 204, 1);
+}
+#pesquisa button{
+    height: 42px;
+    width: 57px;
+    border-top: 1px solid rgba(204, 204, 204, 1);
+    border-right: 1px solid rgba(204, 204, 204, 1);
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+}
+#interacoes-usuario-youtube{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.opcao {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    padding-left: 25px;
+}
+.opcao h3{
+    font-weight: 500;
+    font-size: 14px;
+}
+#grid-videos{
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    grid-template-rows: repeat(3, 262px);
+    background-color: rgb(248, 248, 248);
+}
+.celula{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.image-thumb{
+    width: 235px;
+    height: 140px;
+    border: 2px solid red;
+}
+.thumb{
+    width: 100%;
+    height: 100%;
+}
+.dados-video{
+    display: flex;
+    padding-top: 5px;
+}
+.video-stats{
+    padding-left: 10px;
+    height: 50px;
+}
+.video-stats h2{
+    padding-bottom: 10px;
+    font-size: 15px;
+    width: 195px;
+    min-height:20px;
+}
+.video-stats p{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+}
+.logo-canal{
+    width: 38px;
+    height: 38px;
+    margin:0;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.avatar-logo{
+    width: 100%;
+    height: 100%;
+}
